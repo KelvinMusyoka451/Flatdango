@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main{
+  height: 100vh;
+  width: 100vw;
+  border:1px solid red;
+
+}
+/* .main h1 {
+  text-align: center;
+} */
+
+.nav{
+  position: relative;
+  height: 100%;
+  width:20%;
+  border:1px solid grey;
+  padding: 1%;
+
+}
+.movies{
+  width: 500px;
+  height: 100%;
+  border:1px solid black;
+  margin-left: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.movies img{
+  width: 40%;
+  height: 60%;
+}
